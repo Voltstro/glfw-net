@@ -20,15 +20,16 @@
     <Title>glfw-net</Title>
     <PackageIcon></PackageIcon>
     <PackageId>glfw-net</PackageId>
+    <Platforms>x64</Platforms>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <DocumentationFile>bin\Release\GLFW.NET.xml</DocumentationFile>
     <DefineConstants>TRACE;RELEASE;NETSTANDARD;NETSTANDARD2_0;GLFW_VERSION_3_3</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <DocumentationFile>bin\Debug\GLFW.NET.xml</DocumentationFile>
     <DefineConstants>TRACE;DEBUG;NETSTANDARD;NETSTANDARD2_0;GLFW_VERSION_3_3</DefineConstants>
     <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
